@@ -6,11 +6,17 @@
 
 ### BDD (Behavior Driven Development)
 
-<p>
-Given: Two numbers num1, num2
-When: The numbers are compared
-Then: Returns whether a is smaller than, bigger than, or equal to b, as a string.
-</p>
+<p>Given: Two numbers num1, num2</p>
+<p>When: The numbers are compared</p>
+<p>Then: Returns whether a is smaller than, bigger than, or equal to b, as a string.</p>
+
+### pseudocode
+
+<ol>
+<li>Use spaceship operator to compare numbers (num1<=>num2)</li>
+<li>Use a when statement to print the result</li>
+</ol>
+
 <pre>
 e.g
 
@@ -33,13 +39,13 @@ In fact, the word if and the character ? are not allowed in your code.
 ## Challenge2: Ordered Count of Characters(Toy Problem)
 
 <p>Count the number of occurrences of each character and return it as a (list of arrays) in order of appearance. For empty output return (an empty list). </p>
+
 ### BDD (Behavior Driven Development)
 
-<p>
-Given: A string input
-When: The number of occurrences of each character is counted
-Then: Return it as a list of arrays in order of appearance. 
-</p>
+<p>Given: A string input</p>
+<p>When: The number of occurrences of each character is counted</p>
+<p>Then: Return it as a list of arrays in order of appearance.</p>
+
 <pre>
 Example:
 
@@ -50,3 +56,12 @@ Example:
 "233312", ------> [['2', 2], ['3', 3], ['1', 1]]
 
 </pre>
+
+### pseudocode
+
+<ol>
+<li>Initialize a count hash with the default key value 0</li>
+<li>Get the string input and convert it into a chars array</li>
+<li>Loop through chars array and add 1 to the value where the key is equal to char </li>
+<li>convert the hash into an array</li>
+</ol>

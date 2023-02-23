@@ -6,4 +6,4 @@ counts[c] += 1
 p counts.to_a
 end
 
-count("abracadabra")
+count("Code Wars")
